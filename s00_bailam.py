@@ -63,6 +63,7 @@ def get_24hformat_hour(hour_str):
       y=str(int(hour_str[0:2])+12)
       return y
 
+
 print(get_24hformat_hour(hour_str='6am'))
 print(get_24hformat_hour('6am'))           
 print(get_24hformat_hour('7 am'))
